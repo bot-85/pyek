@@ -40,7 +40,7 @@ free_h={"Host":"free.facebook.com","cache-control":"max-age=0","upgrade-insecure
 mobile_h={'Host': 'm.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent':ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 def __login__():
 	os.system('clear')
-	os.system('echo -e "%s  ___\n |   \ _  _ _ __  _ __\n | |) | || | ‘  \| ‘_.\ \n%s |___/ \_,_|_|_|_| .__/\n                 |_|\n"'%(P,H)) by : BINTANG-XD
+	os.system('echo -e "%s  ___\n |   \ _  _ _ __  _ __\n | |) | || | ‘  \| ‘_.\ \n%s |___/ \_,_|_|_|_| .__/\n                 |_|\n"'%(P,H))
 	print("%s«%s!%s Anda diwajibkan menggunakan akun baru."%(K,M,P))
 	print("\n%s1%s»%s Login pakai token"%(H,B,P))
 	print("%s2%s»%s Login pakai cookie"%(H,B,P))
@@ -141,7 +141,7 @@ def __menu__():
 		print("%s«%s!%s Token invalid"%(K,M,K));time.sleep(2)
 		os.remove("_____tokenz_____");__login__()
 	os.system('clear')
-	os.system('echo -e "%s  ___\n |   \ _  _ _ __  _ __\n | |) | || | ‘  \| ‘_.\ \n%s |___/ \_,_|_|_|_| .__/\n                 |_|\n"'%(P,H)) by: BINTANG-XD
+	os.system('echo -e "%s  ___\n |   \ _  _ _ __  _ __\n | |) | || | ‘  \| ‘_.\ \n%s |___/ \_,_|_|_|_| .__/\n                 |_|\n"'%(P,H))
 	print("%s«%s！%sWelcome :%s %s"%(K,X,P,B,nama))
 
 	print("\n%s01%s»%s Dump id publik old (2004-2015)"%(H,B,P))
